@@ -1,0 +1,14 @@
+{
+  "name": "No Promo",
+  "version": "1.0.1",
+  "description": "Hides promoted stuff on twitter.com",
+  "update_url": "http://x.elihorne.com/chrome/nopromo/updates.xml",
+  "content_scripts": [{
+    "matches": ["https://twitter.com/*"],
+	"js": ["jquery.js", "background.js"]
+  }],
+  "icons": { "16": "icon-16.png",
+             "48": "icon-48.png",
+            "128": "icon-128.png"
+		}
+}
